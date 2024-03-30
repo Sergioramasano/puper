@@ -28,6 +28,6 @@ export async function getWikiAnswer(question) {
     }
   } catch (error) {
     console.error('An error occurred while fetching Wikipedia data:', error);
-    // throw error;
+    throw error;
   }
 }
